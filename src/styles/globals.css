@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a[data-name='linkedin']:hover {
+  color: #0a66c2;
+}
+a[data-name='instagram']:hover {
+  color: #c13584;
+}
+a[data-name='github']:hover,
+a[data-name='devto']:hover {
+  color: #111;
+}
+a[data-name='gmail']:hover {
+  color: #ea4335;
+}
+a[data-name='whatsapp']:hover {
+  color: #25d366;
+}
+a[data-name='twitter']:hover {
+  color: #1da1f2;
+}
+
+svg[data-name='javascript'] {
+  color: #f0db4f;
+}
+svg[data-name='html5'] {
+  color: #ff5733;
+}
+svg[data-name='css3'] {
+  color: #264de4;
+}
+svg[data-name='node'] {
+  color: #68a063;
+}
+svg[data-name='react'] {
+  color: #61dbfb;
+}
+svg[data-name='tailwind'] {
+  color: #38bdf8;
+}
+
+html.dark a[data-name='github']:hover,
+html.dark a[data-name='devto']:hover {
+  color: #fff;
+}
